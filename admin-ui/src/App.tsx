@@ -39,7 +39,7 @@ const App = (): React.ReactElement => {
       });
   }, []);
   if (!dataProvider) {
-    return <div>Loading</div>;
+    return <div>Loading...</div>;
   }
   return (
     <div className="App">
